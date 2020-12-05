@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+  background:black;
+  height:100%;
+}
+body{
+  background:black;
+  font-family: 'Roboto', sans-serif;
+  text-transform:uppercase;
+}
+.container{
+  display:flex;
+  flex-direction:column;
+}
+#header{
+  float:left;
+  width:200px;
+  height:100px;
+}
+#title{
+  background:black;
+  color:#FFFF99;
+  float:right;
+  line-height:2;
+  font-size:20px;
+  margin-right:40px;
+  padding-left:5px;
+  padding-right:5px;
+  text-transform:uppercase;
+}
+#panel_top{
+  background:#FFCC66;
+  width:95%;
+  height:40px;
+  border-top-left-radius:90px;
+  border-top-right-radius:40px;
+  border-bottom-right-radius:40px;
+  margin-top:100px;
+    overflow:hidden;
+  
+}
+#panel_side1{
+  background:#FFCC66;
+  align-items:flex-end	;
+  width:170px;
+  height:30px;
+  float:left;
+}
+#panel_side2{
+  background:#CCDDFF;
+  align-items:flex-end	;
+  width:170px;
+  height:40px;
+  float:left;
+  border-top: 3px solid black;
+  color:black;
+  font-weight:bold;
+  padding-left:5px;
+}
+#panel_side3{
+  background:#FF9966;
+  align-items:flex-end	;
+  width:170px;
+  height:40px;
+  float:left;
+  border-top: 3px solid black;
+  color:black;
+  font-weight:bold;
+  padding-left:5px;
+}
+#panel_side4{
+  background:#BB6622;
+  align-items:flex-end	;
+  width:170px;
+  height:40px;
+  float:left;
+  border-top: 3px solid black; 
+  color:black;
+  font-weight:bold;
+  padding-left:5px;
+}
+#panel_side5{
+  background:#FFFF99;
+  align-items:flex-end	;
+  width:170px;
+  height:40px;
+  float:left;
+  border-top: 3px solid black; 
+  color:black;
+  font-weight:bold;
+  padding-left:5px;
+}
+#panel_side6{
+  background:#FFCC66;
+  align-items:flex-end	;
+  width:170px;
+  height:40px;
+  float:left;
+   
+  color:black;
+  font-weight:bold;
+  margin-top:50px;
+  padding-left:5px;
+}
+#panel_side7{
+  background:#FFCC66;
+  align-items:flex-end	;
+  width:170px;
+  height:40px;
+  float:left;
+  
+  color:black;
+  font-weight:bold;
+ width:95%;
+  height:40px;
+  border-bottom-left-radius:90px;
+  border-top-right-radius:40px;
+  border-bottom-right-radius:40px;
+  
+}
+#panel_main{
+  position:absolute;
+  background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPCWtt-pf1jQyq6t4yQXzOcvf0CC9RY7AxwcO9SolGjmGmteBu")center no-repeat, black;
+ /* background:url("http://orig04.deviantart.net/7718/f/2012/365/6/e/lcars_for_rainmeter_v2_0_by_freaky333-d5ptk26.png")no-repeat;*/
+  background-size:inherit;
+  width:650px;
+  height:290px;
+  top:235px;
+  left:260px;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:20px;
+}
+#panel_main p {
+  position:relative;
+  color:yellow;
+  bottom:-250px;
+  left:10px;
+}
+.blink {
+animation: blink 1s steps(5, start) infinite;
+-webkit-animation: blink 1s steps(5, start) infinite;
+    }
+@keyframes blink {
+  to {
+      visibility: hidden;
+      }
+}
+@-webkit-keyframes blink {
+  to {
+      visibility: hidden;
+      }
+}
+.panel_buttons:hover{
+  cursor:pointer;
+  opacity:.8;
+}
+#panel_bottom{
+   background:#FFCC66;
+  width:95%;
+  height:40px;
+  border-top-left-radius:90px;
+  border-top-right-radius:40px;
+  border-bottom-right-radius:40px;
+  margin-top:30px;
+    overflow:hidden;
+  
+}
